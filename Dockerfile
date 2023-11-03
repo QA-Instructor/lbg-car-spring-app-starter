@@ -9,3 +9,5 @@ RUN apt install -y default-jdk
 WORKDIR /app
 
 COPY . .
+
+RUN mvn package
